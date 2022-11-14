@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class ZombiHareket : MonoBehaviour
 {
+    //add
     public GameObject kalp;
     private GameObject oyuncu;
     private int zombiCan = 3;
@@ -44,7 +45,7 @@ public class ZombiHareket : MonoBehaviour
     {
         if (c.collider.gameObject.tag.Equals("mermi"))
         {
-            Debug.Log("çarptý");
+            Debug.Log("Ã§arptÃ½");
             zombiCan-=1;
             if (zombiCan==0)
             {
