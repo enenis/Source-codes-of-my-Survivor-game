@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class GünDönümü : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
-        
+        //dont touch this section
     }
 
     // Update is called once per frame
