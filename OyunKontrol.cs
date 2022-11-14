@@ -11,13 +11,13 @@ public class OyunKontrol : MonoBehaviour
     private float olusumSureci= 5f;
     public Text puanText;
     private int puan;
-    // Start is called before the first frame update
+    // Start is called before the first frame update.
     void Start()
     {
         zamanSayaci = olusumSureci;
     }
 
-    // Update is called once per frame
+    // Update is called once per frame.
     void Update()
     {
         zamanSayaci -= Time.deltaTime;
@@ -29,7 +29,7 @@ public class OyunKontrol : MonoBehaviour
         }
         if (puan.Equals(10))
         {
-            SceneManager.LoadScene("DýgerOyun");
+            SceneManager.LoadScene("DÃ½gerOyun");
         }
     }
     public void PuanArttir(int p)
