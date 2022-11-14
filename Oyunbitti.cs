@@ -6,12 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class Oyunbitti : MonoBehaviour
 {
+    //add public
     public Text puan;
     void Start()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        puan.text ="Puanýnýz: "+PlayerPrefs.GetInt("Puan");
+        puan.text ="PuanÃ½nÃ½z: "+PlayerPrefs.GetInt("Puan");
     }
 
     // Update is called once per frame
