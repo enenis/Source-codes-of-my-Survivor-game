@@ -14,7 +14,7 @@ public class ZombiHareket : MonoBehaviour
     private OyunKontrol oKontrol;
     private AudioSource aSource;
     private bool zombieOluyor = false;
-    // Start is called before the first frame update
+    //-------------------------------------
     void Start()
     {
         aSource = GetComponent<AudioSource>();
@@ -22,7 +22,7 @@ public class ZombiHareket : MonoBehaviour
         oKontrol = GameObject.Find("__Script").GetComponent<OyunKontrol>();
     }
 
-    // Update is called once per frame
+    //-------------------------------------
     void Update()
     {
         GetComponent<NavMeshAgent>().destination = oyuncu.transform.position;
