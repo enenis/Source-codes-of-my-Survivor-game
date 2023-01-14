@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Oyunbitti : MonoBehaviour
 {
-    //add public
+    //add public text
     public Text puan;
     void Start()
     {
